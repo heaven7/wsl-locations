@@ -25,7 +25,8 @@ Package.onUse(function(api) {
     ], both);
 
     api.addFiles([
-        'lib/server/publish.js'
+        'lib/server/publish.js',
+        'lib/server/methods.js'
     ], ['server']);
 
     api.export(['Locations'], both);
