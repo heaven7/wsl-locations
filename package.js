@@ -31,5 +31,10 @@ Package.onUse(function(api) {
         'lib/server/methods.js'
     ], ['server']);
 
+    api.addFiles([
+        'lib/client/templates.html',
+        'lib/client/templates.js'
+    ], ['client']);
+
     api.export(['Locations'], both);
 });
