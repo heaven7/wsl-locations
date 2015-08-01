@@ -1,0 +1,23 @@
+<template name="locations">
+    [locationsCollection]
+</template>
+
+<template name="location">
+    [location]
+</template>
+
+<!-- autoform is needed for that -->
+<template name="locationInputField">
+    {{> afQuickField name='loc'}}
+    [map]
+</template>
+
+<template name="map">
+    <div class="map-container">
+        {{#unless geolocationError}}
+            {{> googleMap name="map" options=mapOptions}}
+        {{else}}
+            Geolocation failed: {{geolocationError}}
+        {{/unless}}
+    </div>
+</template>
