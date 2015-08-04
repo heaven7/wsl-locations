@@ -8,10 +8,15 @@
 
 <!-- autoform is needed for that -->
 <template name="locationInputField">
-    <input type="text" id="locationField">
-    <ul id="locationResult">
-    </ul>
+    <input type="text" id="location-field">
+    {{> locationResults}}
     [map]
+</template>
+
+<template name="locationResults">
+    <ul id="location-result">
+        <li class="result-item">test 123</li>
+    </ul>
 </template>
 
 <template name="map">
