@@ -28,7 +28,8 @@ Package.onUse(function(api) {
 
     api.addFiles([
         'lib/server/publish.js',
-        'lib/server/methods.js'
+        'lib/server/methods.js',
+        'lib/server/packages.js'
     ], ['server']);
 
     api.addFiles([
