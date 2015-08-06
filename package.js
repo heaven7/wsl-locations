@@ -13,7 +13,7 @@ Package.onUse(function(api) {
 
     var packages = [
         'heaven7:wsl-core@0.0.1',
-        'aldeed:geocoder@0.3.6',
+        'aldeed:geocoder@0.3.6'
 
     //    'cordova:org.apache.cordova.geolocation@0.3.10'
     ];
@@ -28,8 +28,7 @@ Package.onUse(function(api) {
 
     api.addFiles([
         'lib/server/publish.js',
-        'lib/server/methods.js',
-        'lib/server/packages.js'
+        'lib/server/methods.js'
     ], ['server']);
 
     api.addFiles([
