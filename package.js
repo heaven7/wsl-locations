@@ -13,6 +13,7 @@ Package.onUse(function(api) {
 
     var packages = [
         'heaven7:wsl-core@0.0.1',
+        'heaven7:wsl-items@0.0.1',
         'aldeed:geocoder@0.3.6'
 
     //    'cordova:org.apache.cordova.geolocation@0.3.10'
@@ -32,6 +33,7 @@ Package.onUse(function(api) {
     ], ['server']);
 
     api.addFiles([
+        'lib/client/wsl-items_hooks.js',
         'lib/client/helper.js',
         'lib/client/templates.html',
         'lib/client/templates.js'
