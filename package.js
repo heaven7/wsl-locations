@@ -24,7 +24,8 @@ Package.onUse(function(api) {
 
     api.addFiles([
         'lib/both/locations.js',
-        'lib/both/schemas.js'
+        'lib/both/schemas.js',
+        'lib/both/helpers.js'
     ], both);
 
     api.addFiles([
