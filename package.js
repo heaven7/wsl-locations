@@ -41,4 +41,14 @@ Package.onUse(function(api) {
     ], ['client']);
 
     api.export(['Locations'], both);
+
+    Package.onTest(function(api) {
+        api.use('sanjo:jasmine@0.18.0');
+        api.use('velocity:console-reporter@0.1.3');
+        api.use('velocity:html-reporter@0.8.2')
+        api.use('heaven7:wsl-locations');
+
+        api.addFiles('tests/client/example-spec.js', ['client']);
+        api.addFiles('tests/server/example-spec.js', ['server']);
+    });
 });
