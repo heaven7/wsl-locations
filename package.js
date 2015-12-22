@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     api.versionsFrom('1.2');
 
     var packages = [
-        'heaven7:wsl-core@0.0.2',
+        'heaven7:wsl-core@0.0.3',
         'heaven7:wsl-items@0.0.2',
         'aldeed:geocoder@0.3.6'
 
