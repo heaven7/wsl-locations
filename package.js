@@ -34,10 +34,11 @@ Package.onUse(function(api) {
     ], ['server']);
 
     api.addFiles([
-        'lib/client/wsl-items_hooks.js',
         'lib/client/helper.js',
         'lib/client/templates.html',
-        'lib/client/templates.js'
+        'lib/client/templates.js',
+        'lib/client/collection.js',
+        'lib/client/hooks.js'
     ], ['client']);
 
     api.export(['Locations'], both);
