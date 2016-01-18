@@ -6,9 +6,10 @@ Package.describe({
   documentation: 'README.md'
 })
 
-let both = ['client','server'],
+const both = ['client','server'],
     packages = [
         'heaven7:wsl-core@0.0.3_1',
+        'heaven7:wsl-theme-semantic-ui@0.0.3_2',
         'aldeed:geocoder@0.3.6'
     ]
 
@@ -37,14 +38,4 @@ Package.onUse(function(api) {
     ], ['client'])
 
     api.export(['Locations'], both)
-
-    Package.onTest(function(api) {
-        api.use('sanjo:jasmine@0.18.0')
-        api.use('velocity:console-reporter@0.1.3')
-        api.use('velocity:html-reporter@0.8.2')
-        api.use('heaven7:wsl-locations')
-
-        api.addFiles('tests/client/example-spec.js', ['client'])
-        api.addFiles('tests/server/example-spec.js', ['server'])
-    })
 })

@@ -1,16 +1,12 @@
-<template name="locations">
-    [locationsCollection]
-</template>
-
-<template name="location">
-    [location]
-</template>
-
-<!-- autoform is needed for that -->
-<template name="locationInputField">
-    <label for="7yCAzJR3MCixz6Zu4" class="control-label">{{_ "location_label"}}</label>
-    <input type="text" id="location-field">
+<template name="locationInputField_">
+    <label>{{_ "location_label"}}</label>
+    <input type="text" class="location_search">
     {{> locationResults}}
+</template>
+
+<template name="locationInputField">
+    <label>{{_ "location_label"}}</label>
+    {{> search class="location_search" url=url}}
 </template>
 
 <template name="locationResults">
