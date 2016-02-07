@@ -1,26 +1,8 @@
-<template name="locationInputField_">
-    <label>{{_ "location_label"}}</label>
-    <input type="text" class="location_search">
-    {{> locationResults}}
-</template>
-
 <template name="locationInputField">
     <label>{{_ "location_label"}}</label>
     {{> search class="location_search" url=url}}
 </template>
 
-<template name="locationResults">
-    <ul id="location-result">
-        <li class="result-item">test 123</li>
-    </ul>
-</template>
-
 <template name="map">
-    <div class="map-container">
-        {{#unless geolocationError}}
-            {{> googleMap name="map" options=mapOptions}}
-        {{else}}
-            Geolocation failed: {{geolocationError}}
-        {{/unless}}
-    </div>
+    <div id='map'></div>
 </template>

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-locations',
-  version: '0.0.3',
+  version: '0.0.3_1',
   summary: 'Geo location package',
   git: 'https://github.com/heaven7/wsl-locations.git',
   documentation: 'README.md'
@@ -9,8 +9,10 @@ Package.describe({
 const both = ['client','server'],
     packages = [
         'heaven7:wsl-core@0.0.3_1',
-        'heaven7:wsl-theme-semantic-ui@0.0.3_2',
-        'aldeed:geocoder@0.3.6'
+        'heaven7:wsl-theme-semantic-ui@0.0.3_3',
+        'heaven7:wsl-fulfiller@0.0.3',
+        'aldeed:geocoder@0.3.6',
+        'bevanhunt:leaflet@2.0.0'
     ]
 
 Package.onUse(function(api) {
@@ -33,6 +35,7 @@ Package.onUse(function(api) {
         'lib/client/helper.js',
         'lib/client/templates.html',
         'lib/client/templates.js',
+        'lib/client/templates.css',
         'lib/client/collection.js',
         'lib/client/hooks.js'
     ], ['client'])
