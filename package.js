@@ -10,7 +10,7 @@ const both = ['client','server'],
     packages = [
         'heaven7:wsl-core@0.0.3_1',
         'heaven7:wsl-theme-semantic-ui@0.0.3_4',
-        'heaven7:wsl-fulfiller@0.0.3',
+        'heaven7:wsl-fulfiller@0.0.3_2',
         'aldeed:geocoder@0.3.6',
         'bevanhunt:leaflet@2.0.0',
         'ecmascript',
