@@ -12,7 +12,9 @@ const both = ['client','server'],
         'heaven7:wsl-theme-semantic-ui@0.0.3_4',
         'heaven7:wsl-fulfiller@0.0.3',
         'aldeed:geocoder@0.3.6',
-        'bevanhunt:leaflet@2.0.0'
+        'bevanhunt:leaflet@2.0.0',
+        'ecmascript',
+        'es5-shim'
     ]
 
 Package.onUse(function(api) {
