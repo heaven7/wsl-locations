@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-locations',
-  version: '0.0.3_3',
+  version: '0.0.3_4',
   summary: 'Geo location package',
   git: 'https://github.com/heaven7/wsl-locations.git',
   documentation: 'README.md'
