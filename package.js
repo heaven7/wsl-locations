@@ -14,6 +14,7 @@ const both = ['client','server'],
         'aldeed:geocoder@0.3.6',
         'bevanhunt:leaflet@2.0.0',
         'ecmascript',
+        'http',
         'es5-shim'
     ]
 
@@ -35,6 +36,7 @@ Package.onUse(function(api) {
 
     api.addFiles([
         'lib/client/helper.js',
+        'lib/client/geocode.js',
         'lib/client/templates.html',
         'lib/client/templates.js',
         'lib/client/templates.css',
