@@ -1,0 +1,13 @@
+<template name="insertLocationInputField">
+    <div class="field">
+        <label>{{_ "location_label"}}</label>
+        {{> search class="insert_location_search" url=url}}
+    </div>
+</template>
+
+<template name="editLocationInputField">
+    <div class="field">
+        <label>{{_ "location_label"}}</label>
+        {{> search class="edit_location_search" url=url value=value}}
+    </div>
+</template>

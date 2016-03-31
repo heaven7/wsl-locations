@@ -35,8 +35,10 @@ Package.onUse(function(api) {
 
     api.addFiles([
         'lib/client/geocode.js',
-        'lib/client/templates.html',
-        'lib/client/templates.js',
+        'lib/client/locationInput.html',
+        'lib/client/locationInput.js',
+        'lib/client/map.html',
+        'lib/client/map.js',
         'lib/client/templates.css',
         'lib/client/collection.js',
     ], ['client'])
