@@ -13,6 +13,7 @@ const both = ['client','server'],
         'heaven7:wsl-fulfiller@0.0.3_2',
         'aldeed:geocoder@0.3.6',
         'bevanhunt:leaflet@2.0.0',
+        'herrhelms:meteor-leaflet-markercluster@0.0.2',
         'ecmascript',
         'http',
         'es5-shim'
