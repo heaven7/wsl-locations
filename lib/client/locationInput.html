@@ -1,13 +1,26 @@
+<template name="searchLocationInputField">
+    <div class="field">
+        {{#if label}}
+            <label>{{label}}</label>
+        {{/if}}
+        {{> search class="location_search" url=url value=value placeholder=placeholder}}
+    </div>
+</template>
+
 <template name="insertLocationInputField">
     <div class="field">
-        <label>{{_ "location_label"}}</label>
-        {{> search class="insert_location_search" url=url}}
+        {{#if label}}
+            <label>{{label}}</label>
+        {{/if}}
+        {{> search class="insert_location_search" url=url placeholder=placeholder}}
     </div>
 </template>
 
 <template name="editLocationInputField">
     <div class="field">
-        <label>{{_ "location_label"}}</label>
-        {{> search class="edit_location_search" url=url value=value}}
+        {{#if label}}
+            <label>{{label}}</label>
+        {{/if}}
+        {{> search class="edit_location_search" url=url value=value placeholder=placeholder}}
     </div>
 </template>

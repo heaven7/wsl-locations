@@ -1,3 +1,8 @@
 <template name="map">
-    <div id='map'></div>
+    <div id='map'>
+        {{#if mapReady}}
+        {{else}}
+            {{> loader}}
+        {{/if}}
+    </div>
 </template>
