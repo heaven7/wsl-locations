@@ -41,7 +41,7 @@ Package.onUse(function(api) {
         'lib/client/map.html',
         'lib/client/map.js',
         'lib/client/templates.css',
-        'lib/client/collection.js',
+        'lib/client/collection.js'
     ], ['client'])
 
     api.export(['Locations'], both)
