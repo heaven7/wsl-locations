@@ -1,0 +1,20 @@
+{
+  "name": "wsl-locations",
+  "version": "0.0.4",
+  "description": "Geo locations package",
+  "main": "package.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heaven7/wsl-locations.git"
+  },
+  "keywords": [],
+  "author": "Christian Grlica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heaven7/wsl-locations/issues"
+  },
+  "homepage": "https://github.com/heaven7/wsl-locations#readme",
+  "dependencies": {
+    "leaflet.markercluster": "0.4.0"
+  }
+}
