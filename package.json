@@ -1,5 +1,5 @@
 {
-  "name": "heaven7:wsl-locations",
+  "name": "wsl-locations",
   "version": "0.0.4",
   "description": "Geo location package",
   "main": "package.js",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/heaven7/wsl-locations/issues"
   },
-  "homepage": "https://github.com/heaven7/wsl-locations"
+  "homepage": "https://github.com/heaven7/wsl-locations",
+  "dependencies": {
+    "leaflet.markercluster": "0.5.0"
+  }
+
 }
