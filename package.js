@@ -38,6 +38,7 @@ Package.onUse(function(api) {
     ], ['server'])
 
     api.addFiles([
+        'lib/client/utils.js',
         'lib/client/geocode.js',
         'lib/client/locationInput.html',
         'lib/client/locationInput.js',
