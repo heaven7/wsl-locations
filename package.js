@@ -18,12 +18,8 @@ const both = ['client','server'],
         'es5-shim'
     ]
 
-Npm.depends({
-    "leaflet.markercluster": "0.4.0"
-})
-
 Package.onUse(function(api) {
-    api.versionsFrom('1.2')
+    api.versionsFrom('1.3')
     api.use(packages)
     api.imply(packages)
 

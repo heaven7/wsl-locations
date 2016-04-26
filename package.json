@@ -1,0 +1,23 @@
+{
+  "name": "heaven7:wsl-locations",
+  "version": "0.0.4",
+  "description": "Geo location package",
+  "main": "package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heaven7/wsl-locations.git"
+  },
+  "keywords": [
+    "geo",
+    "locations"
+  ],
+  "author": "Christian Grlica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heaven7/wsl-locations/issues"
+  },
+  "homepage": "https://github.com/heaven7/wsl-locations"
+}
